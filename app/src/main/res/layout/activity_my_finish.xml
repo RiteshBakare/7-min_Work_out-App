@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFinishActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/FinishActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:theme="@style/ToolbarTheme"
+        android:elevation="1dp"
+        android:layout_marginBottom="30dp"
+        app:titleTextColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hurray !!!"
+        android:textSize="44sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulation !"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have Completed the workout !"
+        android:textStyle="bold"
+        android:textSize="22sp"
+
+        />
+
+    <FrameLayout
+        android:id="@+id/btnFinish"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/item_circular_color_accent_background"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>
